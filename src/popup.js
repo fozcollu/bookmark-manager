@@ -75,7 +75,7 @@ export default Popup;
  * Highlights to searched keyword
  */
 function getText(text, searchedKeyword) {
-  const index = text.indexOf(searchedKeyword);
+  const index = text.toUpperCase().indexOf(searchedKeyword.toUpperCase());
   if (searchedKeyword !== '' && index >= 0) {
     return (
       <span>
