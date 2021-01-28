@@ -76,7 +76,6 @@ export default Popup;
  */
 function getText(text, searchedKeyword) {
   const index = text.indexOf(searchedKeyword);
-  console.log(text, ' - ', searchedKeyword, ' - ', index);
   if (searchedKeyword !== '' && index >= 0) {
     return (
       <span>
