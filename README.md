@@ -29,5 +29,3 @@ Click "Load unpacked"
 Select the dist folder in bookmark-manager project folder
 
 ---
-
-https://dev.to/anobjectisa/build-a-chrome-extension-using-reactjs-38o7
