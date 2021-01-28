@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bookmark Manager</title>
+
+    <style>
+      body {
+        color: rgba(80, 79, 79, 0.87);
+        font-size: 0.875rem;
+        font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+        font-weight: 400;
+        line-height: 1.43;
+        letter-spacing: 0.01071em;
+        background-color: #fff;
+        margin: 0;
+        padding: 0;
+        width: 800px;
+      }
+
+      ul {
+        padding-inline-start: 20px;
+      }
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+      .bookmark_child_container {
+        display: flex;
+        height: 30px;
+      }
+
+      .bookmark_favicon {
+        vertical-align: middle;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        margin-right: 5px;
+      }
+
+      .bookmark_parent_title {
+        border-bottom: 1px solid #eee;
+        text-transform: uppercase;
+      }
+
+      .bookmark_child_text_span {
+        width: 100%;
+        border-bottom: 1px solid #eee;
+      }
+      .bookmark_child_text_span:hover {
+        background-color: #eee;
+      }
+      .bookmark_search_input {
+        width: 300px;
+        height: 25px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 10px 15px;
+        padding: 0 15px;
+        font-variant: tabular-nums;
+        list-style: none;
+        -webkit-font-feature-settings: 'tnum';
+        font-feature-settings: 'tnum';
+        line-height: 1.5715;
+        background-color: #fff;
+        background-image: none;
+        border: 1px solid #d9d9d9;
+        border-radius: 2px;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+      }
+      .bookmark_search_input:focus {
+        outline: none;
+        border-bottom: 1px solid aqua;
+        border-color: #40a9ff;
+        border-right-width: 1px !important;
+        outline: 0;
+        -webkit-box-shadow: 0 0 0 2px rgb(24 144 255 / 20%);
+        box-shadow: 0 0 0 2px rgb(24 144 255 / 20%);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="popup"></div>
+  </body>
+</html>
